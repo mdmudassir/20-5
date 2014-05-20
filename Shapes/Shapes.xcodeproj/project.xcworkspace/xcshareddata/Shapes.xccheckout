@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FD1A0A13-CDE2-42FA-8BED-5D4CD1761633</string>
+	<string>DE6B1F2F-C042-4D49-AE24-78A6CF8815D3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>bank</string>
+	<string>Shapes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>38F74C4A-81F7-49B9-A9E3-5C4AD186D584</key>
 		<string>https://github.com/mdmudassir/20-5.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>bank/bank.xcodeproj/project.xcworkspace</string>
+	<string>Shapes/Shapes.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>38F74C4A-81F7-49B9-A9E3-5C4AD186D584</key>

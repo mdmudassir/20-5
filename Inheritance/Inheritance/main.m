@@ -18,6 +18,7 @@ int main(int argc, const char * argv[])
         ClassB *b = [[ClassB alloc] init];
         [b initVar]; // will use inherited method
         [b printVar];
+    
         
         
         ClassA *a = [[ClassA alloc] init];

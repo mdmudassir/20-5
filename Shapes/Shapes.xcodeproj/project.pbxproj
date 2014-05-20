@@ -83,12 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				7FEFB81E192BCD7E004B60D5 /* main.m */,
-				7FEFB832192BCED1004B60D5 /* Square.h */,
-				7FEFB835192BCFDD004B60D5 /* XYPoint.h */,
-				7FEFB836192BCFDD004B60D5 /* XYPoint.m */,
-				7FEFB833192BCED1004B60D5 /* Square.m */,
 				7FEFB82F192BCD9C004B60D5 /* Ractangle.h */,
 				7FEFB830192BCD9C004B60D5 /* Ractangle.m */,
+				7FEFB832192BCED1004B60D5 /* Square.h */,
+				7FEFB833192BCED1004B60D5 /* Square.m */,
+				7FEFB835192BCFDD004B60D5 /* XYPoint.h */,
+				7FEFB836192BCFDD004B60D5 /* XYPoint.m */,
 				7FEFB822192BCD7E004B60D5 /* Shapes.1 */,
 				7FEFB820192BCD7E004B60D5 /* Supporting Files */,
 			);
@@ -271,6 +271,7 @@
 				7FEFB828192BCD7E004B60D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
