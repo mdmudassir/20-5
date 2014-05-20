@@ -10,4 +10,5 @@
 
 @interface ClassB : ClassA
 -(void) printVar;
+-(void) initVar;
 @end

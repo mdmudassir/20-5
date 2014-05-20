@@ -13,8 +13,4 @@
 {
     x = 100;
 }
--(void) printVar
-{
-    NSLog(@"x=%i",x);
-}
 @end

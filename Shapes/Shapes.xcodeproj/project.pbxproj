@@ -15,6 +15,16 @@
 		7FEFB837192BCFDD004B60D5 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFB836192BCFDD004B60D5 /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7FEFB856192BE33E004B60D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FEFB852192BE33D004B60D5 /* Complex.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7FEFB841192BE33D004B60D5;
+			remoteInfo = Complex;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7FEFB816192BCD7E004B60D5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -40,6 +50,7 @@
 		7FEFB833192BCED1004B60D5 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 		7FEFB835192BCFDD004B60D5 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
 		7FEFB836192BCFDD004B60D5 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		7FEFB852192BE33D004B60D5 /* Complex.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Complex.xcodeproj; path = ../Complex/Complex.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,7 @@
 		7FEFB80F192BCD7E004B60D5 = {
 			isa = PBXGroup;
 			children = (
+				7FEFB852192BE33D004B60D5 /* Complex.xcodeproj */,
 				7FEFB81D192BCD7E004B60D5 /* Shapes */,
 				7FEFB81A192BCD7E004B60D5 /* Frameworks */,
 				7FEFB819192BCD7E004B60D5 /* Products */,
@@ -83,12 +95,12 @@
 			isa = PBXGroup;
 			children = (
 				7FEFB81E192BCD7E004B60D5 /* main.m */,
-				7FEFB82F192BCD9C004B60D5 /* Ractangle.h */,
-				7FEFB830192BCD9C004B60D5 /* Ractangle.m */,
 				7FEFB832192BCED1004B60D5 /* Square.h */,
-				7FEFB833192BCED1004B60D5 /* Square.m */,
 				7FEFB835192BCFDD004B60D5 /* XYPoint.h */,
 				7FEFB836192BCFDD004B60D5 /* XYPoint.m */,
+				7FEFB833192BCED1004B60D5 /* Square.m */,
+				7FEFB82F192BCD9C004B60D5 /* Ractangle.h */,
+				7FEFB830192BCD9C004B60D5 /* Ractangle.m */,
 				7FEFB822192BCD7E004B60D5 /* Shapes.1 */,
 				7FEFB820192BCD7E004B60D5 /* Supporting Files */,
 			);
@@ -101,6 +113,14 @@
 				7FEFB821192BCD7E004B60D5 /* Shapes-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FEFB853192BE33D004B60D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFB857192BE33E004B60D5 /* Complex */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,12 +162,28 @@
 			mainGroup = 7FEFB80F192BCD7E004B60D5;
 			productRefGroup = 7FEFB819192BCD7E004B60D5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7FEFB853192BE33D004B60D5 /* Products */;
+					ProjectRef = 7FEFB852192BE33D004B60D5 /* Complex.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7FEFB817192BCD7E004B60D5 /* Shapes */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7FEFB857192BE33E004B60D5 /* Complex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Complex;
+			remoteRef = 7FEFB856192BE33E004B60D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FEFB814192BCD7E004B60D5 /* Sources */ = {
@@ -271,7 +307,6 @@
 				7FEFB828192BCD7E004B60D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

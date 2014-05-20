@@ -14,4 +14,10 @@
 {
     NSLog (@"x = %i", x);
 }
+
+-(void) initVar
+{
+    x = 500;
+}
+
 @end

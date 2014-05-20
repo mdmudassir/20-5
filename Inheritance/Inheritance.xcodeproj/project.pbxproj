@@ -14,6 +14,16 @@
 		7FEFB80E192BC52C004B60D5 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFB80D192BC52C004B60D5 /* ClassB.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7FEFB82D192BCD7F004B60D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FEFB829192BCD7E004B60D5 /* Shapes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7FEFB818192BCD7E004B60D5;
+			remoteInfo = Shapes;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7FEFB7F6192BC456004B60D5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -37,6 +47,7 @@
 		7FEFB80A192BC4A1004B60D5 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 		7FEFB80C192BC52C004B60D5 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
 		7FEFB80D192BC52C004B60D5 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		7FEFB829192BCD7E004B60D5 /* Shapes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Shapes.xcodeproj; path = ../Shapes/Shapes.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 		7FEFB7EF192BC456004B60D5 = {
 			isa = PBXGroup;
 			children = (
+				7FEFB829192BCD7E004B60D5 /* Shapes.xcodeproj */,
 				7FEFB7FD192BC456004B60D5 /* Inheritance */,
 				7FEFB7FA192BC456004B60D5 /* Frameworks */,
 				7FEFB7F9192BC456004B60D5 /* Products */,
@@ -98,6 +110,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7FEFB82A192BCD7E004B60D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFB82E192BCD7F004B60D5 /* Shapes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +157,28 @@
 			mainGroup = 7FEFB7EF192BC456004B60D5;
 			productRefGroup = 7FEFB7F9192BC456004B60D5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7FEFB82A192BCD7E004B60D5 /* Products */;
+					ProjectRef = 7FEFB829192BCD7E004B60D5 /* Shapes.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7FEFB7F7192BC456004B60D5 /* Inheritance */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7FEFB82E192BCD7F004B60D5 /* Shapes */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Shapes;
+			remoteRef = 7FEFB82D192BCD7F004B60D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FEFB7F4192BC456004B60D5 /* Sources */ = {
@@ -265,7 +301,6 @@
 				7FEFB808192BC456004B60D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
